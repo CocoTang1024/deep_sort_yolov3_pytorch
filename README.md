@@ -1,24 +1,17 @@
 # DEEP SORT YOLOV3 PYTORCH
 
+论文发表：[1]张宏鸣,汪润,董佩杰,孙红光,李书琴,王红艳.基于LSRCEM-YOLO算法的肉牛多目标跟踪[J/OL].农业机械学报:1-14[2022-03-07].https://kns-cnki-net-s.nudtproxy.yitlink.com:443/kcms/detail/11.1964.S.20210223.0955.004.html.
 
-
-目标检测：基于U版yolov3（版本比较早） https://github.com/ultralytics/yolov3 
-
-ReID部分： https://github.com/pprp/reid_for_deepsort 
-
-Deep SORT参考:  https://github.com/ZQPei/deep_sort_pytorch 
-
-SORT参考： https://github.com/abewley/sort 
 
 ## 新特性
 
-目标检测部分添加了常用的注意力模块CBAM, SE
+- 目标检测部分添加了常用的注意力模块CBAM, SE
 
-添加了使用OpenCV进行目标跟踪的算法，第一帧使用YOLOv3进行检测。（在miniversion文件夹）
+- 添加了使用OpenCV进行目标跟踪的算法，第一帧使用YOLOv3进行检测。（在miniversion文件夹）
 
-添加了SORT算法
+- 添加了SORT算法
 
-完善ReID部分的训练
+- 完善ReID部分的训练
 
 
 ## 组织结构
@@ -79,4 +72,15 @@ test.py: 测试yolov3
 流程图：
 
  ![知乎@猫弟总结的deep sort流程图](README.assets/2020041418343015.png) 
+ 
+ ## 参考 
+ 
+目标检测：基于U版yolov3（版本比较早） https://github.com/ultralytics/yolov3 
+
+ReID部分： https://github.com/pprp/reid_for_deepsort 
+
+Deep SORT参考:  https://github.com/ZQPei/deep_sort_pytorch 
+
+SORT参考： https://github.com/abewley/sort 
+
 
