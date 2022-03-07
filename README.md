@@ -13,12 +13,18 @@
 
 - 完善ReID部分的训练
 
+## 快速入门
+
+- [通过DarkLabel构建DeepSort标注格式和ReID数据集](https://zhuanlan.zhihu.com/p/137430266)
+
+- [Deep SORT多目标跟踪算法代码解析(上)](https://zhuanlan.zhihu.com/p/133678626)
+
+- [Deep SORT多目标跟踪算法代码解析(下)](https://zhuanlan.zhihu.com/p/133689982)
+
 
 ## 组织结构
 
 cfg: cfg网络结构文件存放位置
-
-data: sh文件，没什么用
 
 deep_sort
 
