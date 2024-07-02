@@ -197,4 +197,5 @@ class Tracker:
         self.tracks.append(
             Track(mean, covariance, self._next_id, self.n_init, self.max_age,
                   detection.feature))
+        # 这里完成了对于当前的track_id的自增操作。
         self._next_id += 1
